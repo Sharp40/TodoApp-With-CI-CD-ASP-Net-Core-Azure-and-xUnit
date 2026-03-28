@@ -40,9 +40,7 @@ jobs:
 
       - name: Publish app
         if: github.ref == 'refs/heads/main' && github.event_name == 'push'
-        run: dotnet publish TodoApi/TodoApi.csproj \
-          --configuration Release \
-          --output ./publish
+        run: dotnet publish TodoApi/TodoApi.csproj --configuration Release --output ./publish
 
       - name: Upload artifact
         if: github.ref == 'refs/heads/main' && github.event_name == 'push'
