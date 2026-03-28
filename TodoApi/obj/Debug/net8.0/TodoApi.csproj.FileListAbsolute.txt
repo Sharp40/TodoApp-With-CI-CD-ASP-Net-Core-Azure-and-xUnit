@@ -131,3 +131,4 @@ C:\Users\garci\Documents\Courses\git&github\basic-github-actions\TodoApp\TodoApi
 C:\Users\garci\Documents\Courses\git&github\basic-github-actions\TodoApp\TodoApi\obj\Debug\net8.0\TodoApi.pdb
 C:\Users\garci\Documents\Courses\git&github\basic-github-actions\TodoApp\TodoApi\obj\Debug\net8.0\TodoApi.genruntimeconfig.cache
 C:\Users\garci\Documents\Courses\git&github\basic-github-actions\TodoApp\TodoApi\obj\Debug\net8.0\ref\TodoApi.dll
+C:\Users\garci\Documents\Courses\git&github\basic-github-actions\TodoApp\TodoApi\obj\Debug\net8.0\TodoApi.sourcelink.json

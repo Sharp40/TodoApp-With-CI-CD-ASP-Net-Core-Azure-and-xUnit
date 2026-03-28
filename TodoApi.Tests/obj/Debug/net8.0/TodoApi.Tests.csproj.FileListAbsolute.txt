@@ -464,3 +464,5 @@ C:\Users\garci\Documents\Courses\git&github\basic-github-actions\TodoApp\TodoApi
 C:\Users\garci\Documents\Courses\git&github\basic-github-actions\TodoApp\TodoApi.Tests\obj\Debug\net8.0\TodoApi.Tests.pdb
 C:\Users\garci\Documents\Courses\git&github\basic-github-actions\TodoApp\TodoApi.Tests\obj\Debug\net8.0\TodoApi.Tests.genruntimeconfig.cache
 C:\Users\garci\Documents\Courses\git&github\basic-github-actions\TodoApp\TodoApi.Tests\obj\Debug\net8.0\ref\TodoApi.Tests.dll
+C:\Users\garci\Documents\Courses\git&github\basic-github-actions\TodoApp\TodoApi.Tests\obj\Debug\net8.0\TodoApi.Tests.sourcelink.json
+C:\Users\garci\Documents\Courses\git&github\basic-github-actions\TodoApp\TodoApi.Tests\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.InMemory.dll

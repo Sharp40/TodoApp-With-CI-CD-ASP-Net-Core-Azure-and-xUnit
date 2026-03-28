@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "V7B9agEB1bY=",
+  "dgSpecHash": "Od3Lu5AsMBM=",
   "success": true,
   "projectFilePath": "C:\\Users\\garci\\Documents\\Courses\\git&github\\basic-github-actions\\TodoApp\\TodoApi.Tests\\TodoApi.Tests.csproj",
   "expectedPackageFiles": [
@@ -12,6 +12,7 @@
     "C:\\Users\\garci\\.nuget\\packages\\microsoft.entityframeworkcore\\8.0.25\\microsoft.entityframeworkcore.8.0.25.nupkg.sha512",
     "C:\\Users\\garci\\.nuget\\packages\\microsoft.entityframeworkcore.abstractions\\8.0.25\\microsoft.entityframeworkcore.abstractions.8.0.25.nupkg.sha512",
     "C:\\Users\\garci\\.nuget\\packages\\microsoft.entityframeworkcore.analyzers\\8.0.25\\microsoft.entityframeworkcore.analyzers.8.0.25.nupkg.sha512",
+    "C:\\Users\\garci\\.nuget\\packages\\microsoft.entityframeworkcore.inmemory\\8.0.25\\microsoft.entityframeworkcore.inmemory.8.0.25.nupkg.sha512",
     "C:\\Users\\garci\\.nuget\\packages\\microsoft.entityframeworkcore.relational\\8.0.25\\microsoft.entityframeworkcore.relational.8.0.25.nupkg.sha512",
     "C:\\Users\\garci\\.nuget\\packages\\microsoft.entityframeworkcore.sqlite\\8.0.25\\microsoft.entityframeworkcore.sqlite.8.0.25.nupkg.sha512",
     "C:\\Users\\garci\\.nuget\\packages\\microsoft.entityframeworkcore.sqlite.core\\8.0.25\\microsoft.entityframeworkcore.sqlite.core.8.0.25.nupkg.sha512",

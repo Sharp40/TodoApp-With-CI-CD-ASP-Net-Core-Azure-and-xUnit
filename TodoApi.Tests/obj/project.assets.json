@@ -124,6 +124,22 @@
           "lib/netstandard2.0/_._": {}
         }
       },
+      "Microsoft.EntityFrameworkCore.InMemory/8.0.25": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.EntityFrameworkCore": "8.0.25"
+        },
+        "compile": {
+          "lib/net8.0/Microsoft.EntityFrameworkCore.InMemory.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0/Microsoft.EntityFrameworkCore.InMemory.dll": {
+            "related": ".xml"
+          }
+        }
+      },
       "Microsoft.EntityFrameworkCore.Relational/8.0.25": {
         "type": "package",
         "dependencies": {
@@ -3009,6 +3025,21 @@
         "lib/netstandard2.0/_._",
         "microsoft.entityframeworkcore.analyzers.8.0.25.nupkg.sha512",
         "microsoft.entityframeworkcore.analyzers.nuspec"
+      ]
+    },
+    "Microsoft.EntityFrameworkCore.InMemory/8.0.25": {
+      "sha512": "1+1BiW/Kf+J3GxTCgkwcB+RCCJDkhGUSurB5jRSIL2De4kFWgapsJdhuiY9e2zgJevaVH8FxYABX6vRXBwrVwg==",
+      "type": "package",
+      "path": "microsoft.entityframeworkcore.inmemory/8.0.25",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Icon.png",
+        "PACKAGE.md",
+        "lib/net8.0/Microsoft.EntityFrameworkCore.InMemory.dll",
+        "lib/net8.0/Microsoft.EntityFrameworkCore.InMemory.xml",
+        "microsoft.entityframeworkcore.inmemory.8.0.25.nupkg.sha512",
+        "microsoft.entityframeworkcore.inmemory.nuspec"
       ]
     },
     "Microsoft.EntityFrameworkCore.Relational/8.0.25": {
@@ -8237,6 +8268,7 @@
   "projectFileDependencyGroups": {
     "net8.0": [
       "Microsoft.AspNetCore.Mvc.Testing >= 8.0.25",
+      "Microsoft.EntityFrameworkCore.InMemory >= 8.0.25",
       "Microsoft.NET.Test.Sdk >= 17.8.0",
       "TodoApi >= 1.0.0",
       "coverlet.collector >= 8.0.1",
@@ -8251,11 +8283,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\garci\\Documents\\Courses\\git&github\\basic-github-actions\\TodoApp\\TodoAPi.Tests\\TodoApi.Tests.csproj",
+      "projectUniqueName": "C:\\Users\\garci\\Documents\\Courses\\git&github\\basic-github-actions\\TodoApp\\TodoApi.Tests\\TodoApi.Tests.csproj",
       "projectName": "TodoApi.Tests",
-      "projectPath": "C:\\Users\\garci\\Documents\\Courses\\git&github\\basic-github-actions\\TodoApp\\TodoAPi.Tests\\TodoApi.Tests.csproj",
+      "projectPath": "C:\\Users\\garci\\Documents\\Courses\\git&github\\basic-github-actions\\TodoApp\\TodoApi.Tests\\TodoApi.Tests.csproj",
       "packagesPath": "C:\\Users\\garci\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\garci\\Documents\\Courses\\git&github\\basic-github-actions\\TodoApp\\TodoAPi.Tests\\obj\\",
+      "outputPath": "C:\\Users\\garci\\Documents\\Courses\\git&github\\basic-github-actions\\TodoApp\\TodoApi.Tests\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -8299,6 +8331,10 @@
         "targetAlias": "net8.0",
         "dependencies": {
           "Microsoft.AspNetCore.Mvc.Testing": {
+            "target": "Package",
+            "version": "[8.0.25, )"
+          },
+          "Microsoft.EntityFrameworkCore.InMemory": {
             "target": "Package",
             "version": "[8.0.25, )"
           },

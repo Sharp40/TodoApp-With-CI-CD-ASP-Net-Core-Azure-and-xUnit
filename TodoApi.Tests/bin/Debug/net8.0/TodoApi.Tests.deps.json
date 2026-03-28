@@ -37,6 +37,7 @@
       "TodoApi.Tests/1.0.0": {
         "dependencies": {
           "Microsoft.AspNetCore.Mvc.Testing": "8.0.25",
+          "Microsoft.EntityFrameworkCore.InMemory": "8.0.25",
           "Microsoft.NET.Test.Sdk": "17.8.0",
           "TodoApi": "1.0.0",
           "coverlet.collector": "8.0.1",
@@ -436,6 +437,20 @@
         }
       },
       "Microsoft.EntityFrameworkCore.Analyzers/8.0.25": {},
+      "Microsoft.EntityFrameworkCore.InMemory/8.0.25": {
+        "dependencies": {
+          "Microsoft.EntityFrameworkCore": "8.0.25"
+        },
+        "runtime": {
+          "lib/net8.0/Microsoft.EntityFrameworkCore.InMemory.dll": {
+            "assemblyVersion": "8.0.25.0",
+            "fileVersion": "8.0.2526.11206"
+          }
+        },
+        "compile": {
+          "lib/net8.0/Microsoft.EntityFrameworkCore.InMemory.dll": {}
+        }
+      },
       "Microsoft.EntityFrameworkCore.Relational/8.0.25": {
         "dependencies": {
           "Microsoft.EntityFrameworkCore": "8.0.25",
@@ -3942,6 +3957,13 @@
       "sha512": "sha512-jHtsaYPDBoNsIA085ZbqrZGidG+rnoZGJ/0JTL6QHR0XV4JLnLoJgPao7zVsqhEVJUnS7JOfVClr0UThAxoiuQ==",
       "path": "microsoft.entityframeworkcore.analyzers/8.0.25",
       "hashPath": "microsoft.entityframeworkcore.analyzers.8.0.25.nupkg.sha512"
+    },
+    "Microsoft.EntityFrameworkCore.InMemory/8.0.25": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-1+1BiW/Kf+J3GxTCgkwcB+RCCJDkhGUSurB5jRSIL2De4kFWgapsJdhuiY9e2zgJevaVH8FxYABX6vRXBwrVwg==",
+      "path": "microsoft.entityframeworkcore.inmemory/8.0.25",
+      "hashPath": "microsoft.entityframeworkcore.inmemory.8.0.25.nupkg.sha512"
     },
     "Microsoft.EntityFrameworkCore.Relational/8.0.25": {
       "type": "package",
